@@ -38,6 +38,7 @@ ol {
 }
 
 ul {
+list-style-type: circle;
  font-size: 16px;
  color: black;
 }
