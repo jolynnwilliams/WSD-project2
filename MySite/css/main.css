@@ -1,0 +1,85 @@
+body {
+ color: black;
+ font-size: 16px;
+ line-height: 1.2;
+ margin: 0 auto;
+ width: 900px;
+}
+
+p {
+font-family: 'Handlee', cursive;
+color: black;
+padding: 5px;
+}
+
+header {
+ background: #56A5EC;
+} 
+
+footer {
+background: #56A5EC;
+clear: left;
+}
+
+h1 {
+ text-shadow: 2px 2px 20px #111;
+ font-family: 'Ruluko', sans-serif;
+ color: white;
+}
+
+h3 {
+ text-shadow: 2px 2px 20px #111;
+ font-family: 'Loved by the King', cursive;
+ color: white;
+ padding: 3px;
+}
+
+ol {
+ font-size: 16px;
+}
+
+ul {
+ font-size: 16px;
+ color: black;
+}
+
+img {
+float: right;
+}
+
+#wrapper {
+ background-color: silver;
+}
+
+#about {
+ background-color: silver;
+ padding: 3px;
+}
+
+.facts {
+ background-color: #737CA1;
+ font-family: 'Handlee', cursive;
+ color: #EBDDE2;
+}
+
+a:link {
+ color:#000;
+}
+
+a:visited {
+ color:#000;
+}
+
+a:hover {
+ color: white;
+ background: #4E387E;
+}
+
+a:active {
+ color: #05EDFF;
+}
+
+a {
+ text-decoration: none;
+ text-align: center;
+}
