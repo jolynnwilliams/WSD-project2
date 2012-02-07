@@ -1,7 +1,6 @@
 body {
  color: black;
  font-size: 16px;
- line-height: 1.2;
  margin: 0 auto;
  width: 900px;
 }
@@ -9,7 +8,6 @@ body {
 p {
 font-family: 'Handlee', cursive;
 color: black;
-padding: 5px;
 }
 
 header {
@@ -18,17 +16,18 @@ header {
 
 footer {
 background: #56A5EC;
-clear: left;
 }
 
 h1 {
  text-shadow: 2px 2px 20px #111;
+ font-size: 40px;
  font-family: 'Ruluko', sans-serif;
  color: white;
 }
 
 h3 {
  text-shadow: 2px 2px 20px #111;
+ font-size: 20px;
  font-family: 'Loved by the King', cursive;
  color: white;
  padding: 3px;
@@ -44,11 +43,17 @@ ul {
 }
 
 img {
+margin: 3px;
+border-radius: 5px;
 float: right;
 }
 
 #wrapper {
  background-color: silver;
+ border: 2px solid #333;
+ border-radius: 10px;
+ box-shadow: 2px 2px 2px #111;
+ padding: 3px;
 }
 
 #about {
