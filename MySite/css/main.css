@@ -16,6 +16,7 @@ header {
 
 footer {
 background: #56A5EC;
+clear: both;
 }
 
 h1 {
@@ -43,12 +44,6 @@ ul {
  color: black;
 }
 
-img {
-margin: 3px;
-border-radius: 5px;
-float: right;
-}
-
 #wrapper {
  background-color: silver;
  border: 2px solid #333;
@@ -62,10 +57,10 @@ float: right;
  padding: 3px;
 }
 
-#gallery {
+#main_picture {
 margin: 3px;
 border-radius: 5px;
-float: left;
+float: right;
 }
 
 article {
