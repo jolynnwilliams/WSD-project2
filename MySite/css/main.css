@@ -16,6 +16,7 @@ header {
 
 footer {
 background: #56A5EC;
+clear: both;
 }
 
 h1 {
@@ -38,15 +39,9 @@ ol {
 }
 
 ul {
-list-style-type: circle;
+ list-style-type: circle;
  font-size: 16px;
  color: black;
-}
-
-img {
-margin: 3px;
-border-radius: 5px;
-float: right;
 }
 
 #wrapper {
@@ -62,10 +57,21 @@ float: right;
  padding: 3px;
 }
 
+#main {
+ float: left;
+ border-radius: 10px;
+ padding: 5px;
+}
+
+#gallery {
+ float: left;
+}
+
 article {
  background-color: #737CA1;
  font-family: 'Handlee', cursive;
  color: #EBDDE2;
+ clear: left;
 }
 
 a:link {
