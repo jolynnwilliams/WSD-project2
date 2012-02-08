@@ -26,9 +26,17 @@ h1 {
  color: white;
 }
 
+h2 {
+ color: white;
+ text-shadow: 2px 2px 20px #111;
+ font-size: 30px;
+ font-family: 'Loved by the King', cursive;
+ line-height: 0.5;
+}
+
 h3 {
  text-shadow: 2px 2px 20px #111;
- font-size: 20px;
+ font-size: 22px;
  font-family: 'Loved by the King', cursive;
  color: white;
  padding: 3px;
