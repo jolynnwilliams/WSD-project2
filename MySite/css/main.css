@@ -1,8 +1,8 @@
 body {
  color: black;
- font-size: 16px;
+ font-size: 1em /* 16px */;
  margin: 0 auto;
- width: 900px;
+ width: 80% /* 900px */;
 }
 
 p {
@@ -21,7 +21,7 @@ clear: both;
 
 h1 {
  text-shadow: 2px 2px 20px #111;
- font-size: 40px;
+ font-size: 2.45em /* 40px */;
  font-family: 'Ruluko', sans-serif;
  color: white;
 }
@@ -29,35 +29,39 @@ h1 {
 h2 {
  color: white;
  text-shadow: 2px 2px 20px #111;
- font-size: 30px;
+ font-size: 2em /* 32px */;
  font-family: 'Loved by the King', cursive;
  line-height: 0.5;
 }
 
 h3 {
  text-shadow: 2px 2px 20px #111;
- font-size: 20px;
+ font-size: 1.25em /* 20px */;
  font-family: 'Loved by the King', cursive;
  color: white;
  padding: 3px;
 }
 
 ol {
- font-size: 16px;
+ font-size: 1em /* 16px */;
 }
 
 ul {
- list-style-type: circle;
- font-size: 16px;
+ padding: 5px;
+ line-height: 1.5;
+ list-style-type: none;
+ font-size: 1em /* 16px */
  color: black;
+ overflow: hidden;
 }
 
 #wrapper {
  background-color: silver;
  border: 2px solid #333;
- border-radius: 10px;
+ border-radius: 0.625em /* 10px */;
  box-shadow: 2px 2px 2px #111;
  padding: 3px;
+ width: 100% /* 900px */
 }
 
 #about {
@@ -67,12 +71,19 @@ ul {
 
 #main {
  float: left;
- border-radius: 10px;
+ border-radius: 0.625em /* 10px */;
  padding: 5px;
+ max-width: 100%;
 }
 
 #gallery {
  float: left;
+ margin: 0 auto;
+ max-width: 100%;
+}
+
+img {
+ max-width: 100%;
 }
 
 article {
