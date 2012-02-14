@@ -70,21 +70,38 @@ ul {
 }
 
 #main {
+ float: left;
  border-radius: 0.625em /* 10px */;
- padding: 5px; 
- float: right;
+ padding: 5px;
 }
 
 #gallery {
  float: left;
  margin: 0 auto;
- width: 73.783783% /* 273px / 370px */
+ max-width: 100%;
+ max-height: 80%;
+}
+
+#photo_container {
+ max-width: 100%;
+ max-height: 80%;
+}
+
+#me_container {
+ max-width: 100%;
+ max-height: 80%;
+}
+
+img {
+ max-width: 100%;
+ max-height: 80%;
 }
 
 article {
  background-color: #737CA1;
  font-family: 'Handlee', cursive;
  color: #EBDDE2;
+ clear: left;
 }
 
 a:link {
@@ -107,4 +124,28 @@ a:active {
 a {
  text-decoration: none;
  text-align: center;
+}
+
+/* =Media Queries
+================================================================== */
+
+	/* Tablet Portrait size standard 960 (device and browsers) */
+	@media screen and (min-width:600px) and (max-width:850px) {
+	 #wrapper { background-color:#ADDFFF; }
+	 #side { width:50%;}
+	 
+}
+
+	/* Mobile Landscape Size to Tablet Portrait (device and browsers) */
+	@media only screen and (min-width:460px) and (max-width:600px) {
+	 #wrapper { background-color:#E77471; }
+	 #about { width:90%;}
+	 #facts { width:90%;}
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (device and browsers) */
+	@media only screen and (max-width:479px) {
+	 #wrapper { background-color:#D2B9D3;}
+	 #about { width:90%;}
+	 #facts { width:90%;}
 }
