@@ -6,7 +6,7 @@ body {
 }
 
 p {
-font-family: 'Handlee', cursive;
+font-family: 'Junge', serif;
 color: black;
 }
 
@@ -39,15 +39,15 @@ h3 {
  font-size: 1.25em /* 20px */;
  font-family: 'Loved by the King', cursive;
  color: white;
- padding: .75%;
+ padding: 3px;
 }
 
 ol {
  font-size: 1em /* 16px */;
 }
 
-ul {
- padding: 1.2% /* 5px */;
+nav {
+ padding: 5px;
  line-height: 1.5;
  list-style-type: none;
  font-size: 1em /* 16px */
@@ -60,19 +60,19 @@ ul {
  border: 2px solid #333;
  border-radius: 0.625em /* 10px */;
  box-shadow: 2px 2px 2px #111;
- padding: .75% /* 3px */;
+ padding: 3px;
  width: 100% /* 900px */
 }
 
 #about {
  background-color: silver;
- padding: .75% /* 3px */;
+ padding: 3px;
 }
 
 #main {
  float: left;
  border-radius: 0.625em /* 10px */;
- padding: 1.2% /* 5px */;
+ padding: 5px;
 }
 
 #gallery {
@@ -99,7 +99,7 @@ img {
 
 article {
  background-color: #737CA1;
- font-family: 'Handlee', cursive;
+ font-family: 'Junge', serif;
  color: #EBDDE2;
  clear: left;
 }
