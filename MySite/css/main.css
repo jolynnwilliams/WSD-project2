@@ -1,6 +1,9 @@
 body {
+ background-image: url("../images/image47.jpg");
+ background-attachment: fixed;
+ background-repeat: repeat-x;
  color: black;
- font-size: 1em /* 16px */;
+ font-size: 100% /* 16px */;
  margin: 0 auto;
  width: 80% /* 900px */;
 }
@@ -21,7 +24,7 @@ clear: both;
 
 h1 {
  text-shadow: 2px 2px 20px #111;
- font-size: 2.45em /* 40px */;
+ font-size: 245% /* 40px */;
  font-family: 'Ruluko', sans-serif;
  color: white;
 }
@@ -29,28 +32,29 @@ h1 {
 h2 {
  color: white;
  text-shadow: 2px 2px 20px #111;
- font-size: 2em /* 32px */;
- font-family: 'Loved by the King', cursive;
+ font-size: 200% /* 32px */;
+ font-family: 'Loved by the King', serif;
  line-height: 0.5;
 }
 
 h3 {
  text-shadow: 2px 2px 20px #111;
- font-size: 1.25em /* 20px */;
- font-family: 'Loved by the King', cursive;
+ font-size: 125% /* 20px */;
+ font-family: 'Loved by the King', serif;
  color: white;
  padding: 3px;
 }
 
 ol {
- font-size: 1em /* 16px */;
+ font-size: 100% /* 16px */;
 }
 
 nav {
+ font-family: 'Lemon', san-serif;
  padding: 5px;
  line-height: 1.5;
  list-style-type: none;
- font-size: 1em /* 16px */
+ font-size: 100% /* 16px */
  color: black;
  overflow: hidden;
 }
@@ -60,19 +64,19 @@ nav {
  border: 2px solid #333;
  border-radius: 0.625em /* 10px */;
  box-shadow: 2px 2px 2px #111;
- padding: 3px;
+ padding: .75% /* 3px */;
  width: 100% /* 900px */
 }
 
 #about {
  background-color: silver;
- padding: 3px;
+ padding: .75% /* 3px */;
 }
 
 #main {
  float: left;
- border-radius: 0.625em /* 10px */;
- padding: 5px;
+ border-radius: 62.5% /* 10px */;
+ padding: 1.5% /* 5px */;
 }
 
 #gallery {
@@ -114,6 +118,7 @@ a:visited {
 
 a:hover {
  color: white;
+ border-radius: 8px;
  background: #4E387E;
 }
 
