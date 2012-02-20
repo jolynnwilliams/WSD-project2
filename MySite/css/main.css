@@ -42,16 +42,29 @@ h3 {
  font-size: 125% /* 20px */;
  font-family: 'Loved by the King', serif;
  color: white;
- padding: 3px;
+ padding: 0.188em /* 3px */;
 }
 
 ol {
  font-size: 100% /* 16px */;
 }
 
+table {
+ border-collapse: collapse;
+}
+
+td {
+ padding: 0.313em /* 5px */;
+}
+
+th {
+ text-align: left;
+ padding: 0.313em /* 5px */;
+}
+
 nav {
  font-family: 'Lemon', san-serif;
- padding: 5px;
+ padding: 0.313em /* 5px */;
  line-height: 1.5;
  list-style-type: none;
  font-size: 100% /* 16px */
@@ -64,19 +77,19 @@ nav {
  border: 2px solid #333;
  border-radius: 0.625em /* 10px */;
  box-shadow: 2px 2px 2px #111;
- padding: .75% /* 3px */;
+ padding: 0.188em /* 3px */;
  width: 100% /* 900px */
 }
 
 #about {
  background-color: silver;
- padding: .75% /* 3px */;
+ padding: 0.188em /* 3px */;
 }
 
 #main {
  float: left;
  border-radius: 62.5% /* 10px */;
- padding: 1.5% /* 5px */;
+ padding: 0.313em /* 5px */;
 }
 
 #gallery {
@@ -94,6 +107,10 @@ nav {
 #me_container {
  max-width: 100%;
  max-height: 80%;
+}
+
+#contact {
+ font-size: 93.8%;
 }
 
 img {
@@ -118,7 +135,7 @@ a:visited {
 
 a:hover {
  color: white;
- border-radius: 8px;
+ border-radius: 0.5em /* 8px */;
  background: #4E387E;
 }
 
@@ -149,7 +166,7 @@ a {
 }
 
 	/* Mobile Portrait Size to Mobile Landscape Size (device and browsers) */
-	@media only screen and (max-width:479px) {
+	@media only screen and (max-width:450px) {
 	 #wrapper { background-color:#D2B9D3;}
 	 #about { width:90%;}
 	 #facts { width:90%;}
