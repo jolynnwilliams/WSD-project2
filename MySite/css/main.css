@@ -151,20 +151,21 @@ a {
 	/* Tablet Portrait size standard 960 (device and browsers) */
 	@media screen and (min-width:600px) and (max-width:850px) {
 	 #wrapper { background-color:#ADDFFF; }
-	 #side { width:50%;}
+	 #about { width:90%;}
 	 
 }
 
 	/* Mobile Landscape Size to Tablet Portrait (device and browsers) */
 	@media only screen and (min-width:460px) and (max-width:600px) {
-	 #wrapper { background-color:#E77471; }
+	 #wrapper { background-color:#50EBEC; }
 	 #about { width:90%;}
 	 #facts { width:90%;}
 }
 
 	/* Mobile Portrait Size to Mobile Landscape Size (device and browsers) */
-	@media only screen and (max-width:450px) {
+	@media only screen and (max-width:479px) {
 	 #wrapper { background-color:#D2B9D3;}
 	 #about { width:90%;}
 	 #facts { width:90%;}
+	 #gallery { width:90%;}
 }
