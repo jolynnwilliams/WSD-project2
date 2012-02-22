@@ -164,24 +164,32 @@ a {
 
 	/* Tablet Portrait size standard 960 (device and browsers) */
 	@media screen and (min-width:600px) and (max-width:850px) {
-	 #wrapper { background-color:#ADDFFF; }
+	 #wrapper { background-color:#ADDFFF; 
+	 			height: auto;}
 	 #about { width:90%;}
-	 .facts { width:90%;}
-	 #gallery { width:90%;}
+	 #gallery { width:90%;
+	 			float: none;}
 }
 
 	/* Mobile Landscape Size to Tablet Portrait (device and browsers) */
 	@media only screen and (min-width:460px) and (max-width:600px) {
-	 #wrapper { background-color:#50EBEC; }
+	 #wrapper { background-color:#50EBEC; 
+	 			height: auto;}
 	 #about { width:90%;}
-	 .facts { width:90%;}
 	 #gallery { width:90%;}
 }
 
 	/* Mobile Portrait Size to Mobile Landscape Size (device and browsers) */
 	@media only screen and (max-width:479px) {
-	 #wrapper { background-color:#D2B9D3;}
+	 #wrapper { background-color:#D2B9D3;
+	 			height: auto;}
+	 #me_container {display: none;}
 	 #about { width:90%;}
-	 .facts { width:90%;}
-	 #gallery { width:90%;}
+	 h1 { font-size: 30px;}
+	 h2 { font-size: 20px;}
+	 h3 { font-size: 15px;}
+	 nav { font-size: 13px;}
+	 .facts { font-size: 10px;}
+	 #gallery { width:90%;
+	            float: none;}
 }
