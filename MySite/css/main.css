@@ -19,8 +19,8 @@ header {
 } 
 
 footer {
-background: #56A5EC;
-clear: both;
+ background: #56A5EC;
+ clear: both;
 }
 
 h1 {
@@ -50,11 +50,12 @@ h3 {
 }
 
 ol {
- font-size: 100% /* 16px */;
+ font-size: 85%;
 }
 
 table {
  font-family: 'Junge', serif;
+ font-size: 85%;
  max-width: 100%;
  border-collapse: collapse;
 }
@@ -91,6 +92,7 @@ nav {
 #about {
  background-color: silver;
  padding: 0.188em /* 3px */;
+ font-size: 85%;
 }
 
 #main {
@@ -124,11 +126,14 @@ img {
 
 article {
  -moz-column-count: 3;
- -moz-column-gap: 160% /* 26px */;
  background-color: #737CA1;
  font-family: 'Junge', serif;
  color: #EBDDE2;
  clear: left;
+}
+
+.facts {
+ font-size: 85%;
 }
 
 a:link {
@@ -161,16 +166,15 @@ a {
 	@media screen and (min-width:600px) and (max-width:850px) {
 	 #wrapper { background-color:#ADDFFF; }
 	 #about { width:90%;}
-	 #facts { width:90%;}
+	 .facts { width:90%;}
 	 #gallery { width:90%;}
-	 
 }
 
 	/* Mobile Landscape Size to Tablet Portrait (device and browsers) */
 	@media only screen and (min-width:460px) and (max-width:600px) {
 	 #wrapper { background-color:#50EBEC; }
 	 #about { width:90%;}
-	 #facts { width:90%;}
+	 .facts { width:90%;}
 	 #gallery { width:90%;}
 }
 
@@ -178,6 +182,6 @@ a {
 	@media only screen and (max-width:479px) {
 	 #wrapper { background-color:#D2B9D3;}
 	 #about { width:90%;}
-	 #facts { width:90%;}
+	 .facts { width:90%;}
 	 #gallery { width:90%;}
 }
