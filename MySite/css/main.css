@@ -126,6 +126,7 @@ img {
 
 article {
  -moz-column-count: 3;
+ -webkit-column-count: 3;
  background-color: #737CA1;
  font-family: 'Junge', serif;
  color: #EBDDE2;
@@ -189,7 +190,7 @@ a {
 	 h2 { font-size: 20px;}
 	 h3 { font-size: 15px;}
 	 nav { font-size: 13px;}
-	 .facts { font-size: 10px;}
+	 .facts { font-size: 11px;}
 	 #gallery { width:90%;
 	            float: none;}
 }
