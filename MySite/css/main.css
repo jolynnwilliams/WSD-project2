@@ -186,10 +186,12 @@ a {
 	 h2 { font-size: 20px;}
 	 h3 { font-size: 15px;}
 	 nav { font-size: 13px;}
-	 .facts { font-size: 11px;}
+	 .facts { font-size: 12px;}
 	 #gallery { max-width:90%;
 	            float: left;}
 	 #photo_containter { max-width:100%;}
+	 article { -moz-column-count: 2;
+ 			   -webkit-column-count: 2;
 }
 
 	/* Mobile Portrait Size to Mobile Landscape Size (device and browsers) */
@@ -202,8 +204,10 @@ a {
 	 h2 { font-size: 20px;}
 	 h3 { font-size: 15px;}
 	 nav { font-size: 13px;}
-	 .facts { font-size: 11px;}
+	 .facts { font-size: 12px;}
 	 #gallery { max-width:90%;
 	            float: none;}
 	 #photo_containter { max-width:100%;}
+	 article { -moz-column-count: 1;
+ 			   -webkit-column-count: 1;
 }
