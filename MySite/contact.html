@@ -8,6 +8,7 @@
     <link href='http://fonts.googleapis.com/css?family=Ruluko' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Loved+by+the+King' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Junge' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lemon' rel='stylesheet' type='text/css'>
 
 	<body>
 	<div id="wrapper">
@@ -20,11 +21,42 @@
   </nav>
 </header>	
 
-<p>Name: JoLynn Williams</p>
-<p>Email: gorgeoussoj04@gmail.com</p>
-<p>Phone: 509-387-1895</p>
+<section>
+ <table>
+   <tr>
+	 <th>Name</th>
+     <th>Email</th>
+   </tr>
+   <tr>
+     <td>JoLynn Williams</td>
+     <td>gorgeoussjo04@gmail.com</td>
+   </tr>
+</table>
+</section>
 
-	
+<p>Let Me Know Your Thoughts</p>
+
+<form method=post action="mailto:gorgeoussjo04@gmail.com">
+<label for="name">Your name: <input name="name" size="40"></label>
+<p><label for="male">
+<input name="male" type=radio> Male</label></p>
+<p><label for="female">
+<input name="female" type=radio>Female</lable></p>
+
+<label for="relation">Relation</label> 
+<select name="relation" id="relation">
+	<option>Family Member</option>
+	<option>Friend</option>
+	<option>No Relation</option>
+</select> 
+<p> 
+<label for="comments">Comments</label></p>
+<textarea name="other" cols=40 rows=7></textarea>
+
+
+<p>Thank you for your time</p>
+<p><input type=submit> <input type=reset></p>
+</form>
 	
   <footer>
   &copy; 2012. All rights reserved - JoLynn M. Williams
